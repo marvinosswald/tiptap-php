@@ -1,12 +1,12 @@
 {
-    "name": "ueberdosis/tiptap-php",
+    "name": "marvinosswald/tiptap-php",
     "description": "A PHP package to work with Tiptap output",
     "keywords": [
         "ueberdosis",
         "tiptap",
         "prosemirror"
     ],
-    "homepage": "https://github.com/ueberdosis/tiptap-php",
+    "homepage": "https://github.com/marvinosswald/tiptap-php",
     "license": "MIT",
     "authors": [
         {
@@ -49,6 +49,9 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
+    },
+    "replace": {
+        "ueberdosis/tiptap-php": "1.3.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
